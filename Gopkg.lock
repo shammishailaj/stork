@@ -753,14 +753,14 @@
 
 [[projects]]
   branch = "application_backup"
-  digest = "1:7a14eaf5448136d8f05c4de60ef1ea342e7712810f4d4e5ed0c2f01134f7b59c"
+  digest = "1:e365f92a6361784cc542c9f8b8dae6a3ef625710453afbe01b1608110f2cc7b7"
   name = "github.com/portworx/sched-ops"
   packages = [
     "k8s",
     "task",
   ]
   pruneopts = "UT"
-  revision = "f42094cf324c5c4d2413a69126ebfcd89ddf1017"
+  revision = "b0e510d8f2366e99e03acb26e01fa69d5d2485a2"
 
 [[projects]]
   branch = "master"
@@ -1813,6 +1813,7 @@
     "gocloud.dev/blob/azureblob",
     "gocloud.dev/blob/gcsblob",
     "gocloud.dev/blob/s3blob",
+    "gocloud.dev/gcerrors",
     "gocloud.dev/gcp",
     "golang.org/x/oauth2/google",
     "google.golang.org/grpc",
@@ -1838,6 +1839,7 @@
     "k8s.io/apimachinery/pkg/runtime/serializer",
     "k8s.io/apimachinery/pkg/types",
     "k8s.io/apimachinery/pkg/util/strategicpatch",
+    "k8s.io/apimachinery/pkg/util/uuid",
     "k8s.io/apimachinery/pkg/util/wait",
     "k8s.io/apimachinery/pkg/watch",
     "k8s.io/apiserver/pkg/authentication/serviceaccount",
