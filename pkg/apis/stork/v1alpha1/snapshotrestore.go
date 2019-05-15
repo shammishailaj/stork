@@ -8,10 +8,10 @@ import (
 type SnapshotRestoreStatusType string
 
 const (
-	// SnapshotRestoreResourceName is name for "volumesnapshotrestore" resource
-	SnapshotRestoreResourceName = "volumesnapshotrestore"
+	// SnapshotRestoreResourceName is name for "volumesnapshotrestore"  resource
+	SnapshotRestoreResourceName = "volumesnaprestore"
 	// SnapshotRestoreResourcePlural is plural for "volumesnapshotrestore" resource
-	SnapshotRestoreResourcePlural = "volumesnapshotrestores"
+	SnapshotRestoreResourcePlural = "volumesnaprestores"
 	// SnapshotRestoreStatusInitial is the initial state when snapshot restore is initiated
 	SnapshotRestoreStatusInitial SnapshotRestoreStatusType = ""
 	// SnapshotRestoreStatusPending for when restore is in pending state
